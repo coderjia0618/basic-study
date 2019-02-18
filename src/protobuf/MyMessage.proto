@@ -1,0 +1,35 @@
+syntax = "proto2";
+
+package cn.coderjia.netty.protobuf.demo2;
+
+
+option optimize_for = SPEED;
+option java_package = "cn.coderjia.netty.protobuf.demo2";
+option java_outer_classname = "OuterMessage";
+
+message MyMessage {
+    enum DataType {
+        PersonType = 1;
+        DogType = 2;
+        CatType = 3;
+    }
+    required DataType data_type = 1;
+    oneof dataBody {
+        Person person = 2;
+        Dog dog = 3;
+        Cat cat = 4;
+    }
+}
+message Person {
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+message Dog {
+    required string name = 1;
+    optional int32 age = 2;
+}
+message Cat {
+    required string name = 1;
+    optional int32 age = 2;
+}

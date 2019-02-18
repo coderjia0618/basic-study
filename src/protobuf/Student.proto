@@ -1,0 +1,14 @@
+syntax = "proto2";
+
+package cn.coderjia.netty.protobuf;
+
+
+option optimize_for = SPEED;
+option java_package = "cn.coderjia.netty.protobuf";
+option java_outer_classname = "MyMessage";
+
+message Student {
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>长连接测试</title>
+    <script type="text/javascript">
+        var socket;
+        function respMsgTag() {
+            return document.getElementById("respMsg");
+        }
+        if (window.WebSocket) {
+            socket = new WebSocket("ws://localhost:8899/ws");
+            socket.onmessage = function (e) {
+                respMsgTag().value = respMsgTag().value + "\n" + e.data;
+            }
+            socket.onopen = function (e) {
+                respMsgTag().value = "连接开启!"
+            }
+            socket.onclose = function (e) {
+                respMsgTag().value = respMsgTag().value + "\n" + "连接关闭!";
+            }
+        } else {
+            console.info("浏览器不支持WebSocket!");
+        }
+        function sendMsg() {
+            var inputMsg = document.getElementById("inputMsg").value;
+            console.info("sendMsg:" + inputMsg);
+            if (!window.WebSocket) {
+                return;
+            }
+            if (socket.readyState === WebSocket.OPEN) {
+                socket.send(inputMsg);
+            }
+        }
+    </script>
+</head>
+<body>
+    <!-- 发送消息输入框 -->
+    <textarea id="inputMsg" name="message" style="width: 400px; height: 200px"></textarea>
+    <!-- 发送按钮 -->
+    <input type="button" value="发送数据" onclick="sendMsg()"/>
+    <h3>服务端输出</h3>
+    <!-- 服务端返回消息 -->
+    <textarea id="respMsg" style="width: 400px; height: 300px"></textarea>
+    <!-- 清空按钮 -->
+    <input type="button" onclick="document.getElementById('respMsg').value=''" value="清空内容"/>
+</body>
+</html>
