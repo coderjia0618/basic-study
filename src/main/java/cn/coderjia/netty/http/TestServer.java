@@ -16,14 +16,14 @@ public class TestServer {
 
     public static void main(String[] args){
 
-        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
-        EventLoopGroup workerGroup = new NioEventLoopGroup();
+        EventLoopGroup boos = new NioEventLoopGroup(1);
+        EventLoopGroup worker = new NioEventLoopGroup();
 
         try {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
 
             serverBootstrap
-                    .group(bossGroup, workerGroup)
+                    .group(boos, worker)
                     .channel(NioServerSocketChannel.class)
                     .childHandler(new TestServerInitializer());
 
@@ -32,8 +32,8 @@ public class TestServer {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            bossGroup.shutdownGracefully();
-            workerGroup.shutdownGracefully();
+            boos.shutdownGracefully();
+            worker.shutdownGracefully();
         }
 
 
