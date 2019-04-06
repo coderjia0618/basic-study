@@ -43,9 +43,11 @@ public class Handler implements Runnable {
     private void read() throws IOException {
         socket.read(input);
         if (inputIsComplete()) {
+            process();
             state = SENDING;
             sk.interestOps(SelectionKey.OP_WRITE);
         }
+        input.clear();
     }
 
     private void send() throws IOException {
@@ -53,6 +55,10 @@ public class Handler implements Runnable {
         if (outputIsComplete()) {
             sk.cancel();
         }
+    }
+
+    private void process() {
+        System.out.println("Handler.process()...");
     }
 
     private boolean inputIsComplete() {
