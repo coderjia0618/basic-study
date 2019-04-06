@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java" line="69" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0b3faa37-608a-46cd-b93b-c69dc25c42a8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor2/Handler.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/test/HelloReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/HelloReactor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -74,19 +78,19 @@
           <entry key="ChannelFuture" value="1" />
           <entry key="Future" value="2" />
           <entry key="MultithreadEventExecutorGroup" value="1" />
-          <entry key="class" value="4" />
+          <entry key="class" value="5" />
           <entry key="gradle" value="8" />
           <entry key="html" value="3" />
-          <entry key="java" value="318" />
+          <entry key="java" value="337" />
           <entry key="proto" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="4" />
+          <entry key="CLASS" value="5" />
           <entry key="Groovy" value="8" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="318" />
+          <entry key="JAVA" value="337" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="PROTO" value="9" />
           <entry key="UML" value="4" />
@@ -97,7 +101,7 @@
           <entry key="dummy" value="53" />
           <entry key="gradle" value="79" />
           <entry key="html" value="978" />
-          <entry key="java" value="11978" />
+          <entry key="java" value="12883" />
           <entry key="proto" value="587" />
         </counts>
       </usages-collector>
@@ -105,7 +109,7 @@
         <counts>
           <entry key="Groovy" value="79" />
           <entry key="HTML" value="978" />
-          <entry key="JAVA" value="11978" />
+          <entry key="JAVA" value="12883" />
           <entry key="PLAIN_TEXT" value="53" />
           <entry key="PROTO" value="587" />
         </counts>
@@ -115,22 +119,39 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="104">
+              <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+            <state relative-caret-position="307">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1415#1416#0" expanded="true" />
+                <element signature="e#1466#1467#0" expanded="true" />
+                <element signature="e#1457#1458#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -528,10 +549,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo2/SimpleChatClientnitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo2/SimpleChatClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo2/SimpleChatClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo3/TestIdleStateHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo3/TestIdleStateInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/demo3/TestIdleStateServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/websocket/WebSokcetChannelInitializer.java" />
@@ -578,7 +595,11 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor2/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor3/NIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/EchoReactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java" />
       </list>
     </option>
   </component>
@@ -677,17 +698,6 @@
               <item name="coderjia" type="462c0819:PsiDirectoryNode" />
               <item name="nio" type="462c0819:PsiDirectoryNode" />
               <item name="douglea" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
-              <item name="netty-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coderjia" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="douglea" type="462c0819:PsiDirectoryNode" />
               <item name="reactor3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -714,7 +724,7 @@
     <property name="SearchEverywhereHistoryKey" value="Student&#9;FILE&#9;file:///Users/coderjia/Documents/学习/netty-study/src/protobuf/Student.proto" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554540268833" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554546167038" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -733,6 +743,7 @@
       <recent name="cn.coderjia.nio.reactor3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3" />
       <recent name="$PROJECT_DIR$/src/protobuf" />
     </key>
   </component>
@@ -868,12 +879,12 @@
       <workItem from="1551683977470" duration="401000" />
       <workItem from="1554434270639" duration="131000" />
       <workItem from="1554434407484" duration="13825000" />
-      <workItem from="1554517514922" duration="5683000" />
+      <workItem from="1554517514922" duration="11578000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98147000" />
+    <option name="totallyTimeSpent" value="104042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
@@ -888,7 +899,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32746115" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32594937" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.38449368" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -896,7 +907,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32436708" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3227848" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32953367" />
@@ -922,23 +933,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/EventExecutor.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="140" column="61" selection-start-line="140" selection-start-column="61" selection-end-line="140" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelFuture.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/Future.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="73" selection-start-line="73" selection-end-line="84" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/future/FutureDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1187,18 +1181,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/HelloReactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor3/Processor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -1210,16 +1192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Acceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1247,10 +1219,77 @@
     <entry file="file://$PROJECT_DIR$/src/protobuf/MyMessage.proto">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="36" />
+          <folding>
+            <element signature="e#4021#4022#0" expanded="true" />
+            <element signature="e#4085#4086#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Acceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/HelloReactor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <caret line="25" column="14" selection-start-line="25" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="75" column="25" lean-forward="true" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
+          <folding>
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1894#1895#0" expanded="true" />
+            <element signature="e#1937#1938#0" expanded="true" />
+            <element signature="e#1979#1980#0" expanded="true" />
+            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2138#2139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1575#1576#0" expanded="true" />
@@ -1263,20 +1302,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="104">
+          <caret line="32" column="13" lean-forward="true" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        <state relative-caret-position="135">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1415#1416#0" expanded="true" />
+            <element signature="e#1466#1467#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
