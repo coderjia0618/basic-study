@@ -1,4 +1,4 @@
-package cn.coderjia.nio.douglea.reactor.test;
+package cn.coderjia.nio.douglea.test;
 
 import cn.coderjia.nio.douglea.reactor.Acceptor;
 import cn.coderjia.nio.douglea.reactor.Reactor;
