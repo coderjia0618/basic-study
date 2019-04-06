@@ -10,14 +10,14 @@ import java.util.Objects;
 
 /**
  * @Author CoderJiA
- * @Description Acceptor
- * @Date 5/4/19 下午2:58
+ * @Description Acceptor3
+ * @Date 6/4/19 下午6:51
  **/
-public class Acceptor implements Runnable {
+public class Acceptor3 implements Runnable {
 
     private final ServerSocketChannel serverSocket;
 
-    public Acceptor(ServerSocketChannel serverSocket) {
+    public Acceptor3(ServerSocketChannel serverSocket) {
         this.serverSocket = serverSocket;
     }
 

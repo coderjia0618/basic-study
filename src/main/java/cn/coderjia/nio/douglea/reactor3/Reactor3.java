@@ -10,10 +10,11 @@ import java.util.Set;
 
 /**
  * @Author CoderJiA
- * @Description Reactor
- * @Date 5/4/19 下午2:25
+ * @Description Reactor3
+ * @Date 6/4/19 下午6:51
  **/
-public abstract class Reactor implements Runnable {
+public abstract class Reactor3 implements Runnable {
+
 
     protected Selector selector;
     protected ServerSocketChannel serverSocket;
@@ -22,7 +23,7 @@ public abstract class Reactor implements Runnable {
     protected final long timeout;
     protected final boolean isMainReactor;
 
-    public Reactor(int port, long timeout, boolean isMainReactor) {
+    public Reactor3(int port, long timeout, boolean isMainReactor) {
         this.port = port;
         this.timeout = timeout;
         this.isMainReactor = isMainReactor;
@@ -68,6 +69,6 @@ public abstract class Reactor implements Runnable {
         }
     }
 
-    public abstract Acceptor newAcceptor();
+    public abstract Acceptor3 newAcceptor();
 
 }

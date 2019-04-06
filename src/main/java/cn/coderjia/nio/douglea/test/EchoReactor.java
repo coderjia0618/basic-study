@@ -1,7 +1,7 @@
 package cn.coderjia.nio.douglea.test;
 
-import cn.coderjia.nio.douglea.reactor3.Acceptor;
-import cn.coderjia.nio.douglea.reactor3.Reactor;
+import cn.coderjia.nio.douglea.reactor3.Acceptor3;
+import cn.coderjia.nio.douglea.reactor3.Reactor3;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
@@ -12,13 +12,13 @@ import java.util.stream.IntStream;
  * @Description EchoReactor
  * @Date 6/4/19 下午5:35
  **/
-public class EchoReactor extends Reactor {
+public class EchoReactor extends Reactor3 {
 
     private static final int PORT = 9999;
     private static final long TIME_OUT = TimeUnit.MILLISECONDS.toMillis(10);
 
     private static final int SUB_REACTORS_SIZE = 2;
-    private static final Reactor[] SUB_REACTORS = new Reactor[SUB_REACTORS_SIZE];
+    private static final Reactor3[] SUB_REACTORS = new Reactor3[SUB_REACTORS_SIZE];
     private static final AtomicInteger NEXT_INDEX = new AtomicInteger(0);
 
     static {
@@ -26,7 +26,7 @@ public class EchoReactor extends Reactor {
         IntStream.range(0, SUB_REACTORS_SIZE).forEach(i -> SUB_REACTORS[i] = new EchoReactor(PORT, TIME_OUT, false));
     }
 
-    public static Reactor nextSubReactor(){
+    public static Reactor3 nextSubReactor(){
 
         int curIdx = NEXT_INDEX.getAndIncrement();
 
@@ -42,14 +42,14 @@ public class EchoReactor extends Reactor {
     }
 
     @Override
-    public Acceptor newAcceptor() {
-        return new Acceptor(this.serverSocket);
+    public Acceptor3 newAcceptor() {
+        return new Acceptor3(this.serverSocket);
     }
 
 
     public static void main(String[] args) {
 
-        Reactor mainReactor = new EchoReactor(PORT, TIME_OUT, true);
+        Reactor3 mainReactor = new EchoReactor(PORT, TIME_OUT, true);
 
         // 启动主Reactor
         new Thread(mainReactor).start();
