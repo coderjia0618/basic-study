@@ -1,7 +1,4 @@
-package cn.coderjia.nio.douglea.test;
-
-import cn.coderjia.nio.douglea.reactor3.Acceptor3;
-import cn.coderjia.nio.douglea.reactor3.Reactor3;
+package cn.coderjia.nio.douglea.reactor3;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;

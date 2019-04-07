@@ -1,7 +1,4 @@
-package cn.coderjia.nio.douglea.test;
-
-import cn.coderjia.nio.douglea.reactor.Acceptor;
-import cn.coderjia.nio.douglea.reactor.Reactor;
+package cn.coderjia.nio.douglea.reactor;
 
 import java.io.IOException;
 import java.nio.channels.Selector;
@@ -9,15 +6,15 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * @Author CoderJiA
- * @Description HelloReactor
+ * @Description EchoReactor
  * @Date 5/4/19 下午5:01
  **/
-public class HelloReactor extends Reactor {
+public class EchoReactor extends Reactor {
 
     private static final int PORT = 9999;
     private static final long TIME_OUT = TimeUnit.MILLISECONDS.toMillis(10);
 
-    public HelloReactor(int port, long timeout) throws IOException {
+    public EchoReactor(int port, long timeout) throws IOException {
         super(port, timeout);
     }
 
@@ -27,7 +24,7 @@ public class HelloReactor extends Reactor {
     }
 
     public static void main(String[] args) throws IOException {
-        new HelloReactor(PORT, TIME_OUT).run();
+        new EchoReactor(PORT, TIME_OUT).run();
     }
 
 }

@@ -1,7 +1,6 @@
 package cn.coderjia.nio.douglea.reactor3;
 
 import cn.coderjia.nio.douglea.reactor.Handler;
-import cn.coderjia.nio.douglea.test.EchoReactor;
 
 import java.io.IOException;
 import java.nio.channels.ServerSocketChannel;
