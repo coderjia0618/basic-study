@@ -4,6 +4,8 @@ import io.netty.channel.ChannelInitializer;
 import io.netty.channel.ChannelPipeline;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.handler.codec.http.HttpServerCodec;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
 
 /**
  * @Author CoderJiA
@@ -17,6 +19,7 @@ public class TestServerInitializer extends ChannelInitializer<SocketChannel> {
         ChannelPipeline pipeline = ch.pipeline();
         pipeline.addLast("httpServerCodec", new HttpServerCodec());
         pipeline.addLast("testHttpServerHandler", new TestHttpServerHandler());
+        pipeline.addLast(new LoggingHandler(LogLevel.INFO));
     }
 
 }

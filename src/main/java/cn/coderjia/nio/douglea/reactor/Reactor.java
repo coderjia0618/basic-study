@@ -45,7 +45,7 @@ public abstract class Reactor implements Runnable{
                         dispatch(sk);
                         selected.remove(sk);
                     });
-                    selected.clear();
+//                    selected.clear();
                 }
             }
         } catch (IOException e) {

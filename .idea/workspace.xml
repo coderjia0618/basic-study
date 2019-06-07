@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b3faa37-608a-46cd-b93b-c69dc25c42a8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/TestServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/TestServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/EchoReactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/HelloReactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/EchoReactor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/netty/http/TestServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/coderjia/netty/http/TestServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/netty/http/TestServerInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/coderjia/netty/http/TestServerInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Acceptor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Acceptor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Reactor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/Reactor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/test/HelloAcceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/coderjia/nio/douglea/reactor/test/HelloReactor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServerInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServerInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,6 +61,11 @@
                 <item name="netty-study" type="f1a62948:ProjectNode" />
                 <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="netty-study" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -50,54 +77,65 @@
     <session id="-1468273887">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
-          <entry key="project.open.time.1" value="5" />
+          <entry key="project.closed" value="45" />
+          <entry key="project.open.time.1" value="6" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.2" value="6" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.25" value="2" />
           <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="5" />
           <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="AbstractBootstrap" value="1" />
+          <entry key="AbstractChannel" value="1" />
+          <entry key="Channel" value="2" />
           <entry key="ChannelFuture" value="1" />
+          <entry key="EventLoopGroup" value="1" />
           <entry key="Future" value="2" />
           <entry key="MultithreadEventExecutorGroup" value="1" />
-          <entry key="class" value="5" />
-          <entry key="gradle" value="8" />
+          <entry key="NioServerSocketChannel" value="1" />
+          <entry key="SingleThreadEventLoop" value="1" />
+          <entry key="class" value="9" />
+          <entry key="gradle" value="10" />
           <entry key="html" value="3" />
-          <entry key="java" value="350" />
+          <entry key="java" value="820" />
           <entry key="proto" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
-          <entry key="Groovy" value="8" />
+          <entry key="CLASS" value="9" />
+          <entry key="Groovy" value="10" />
           <entry key="HTML" value="3" />
-          <entry key="JAVA" value="350" />
+          <entry key="JAVA" value="820" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="PROTO" value="9" />
-          <entry key="UML" value="4" />
+          <entry key="UML" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="57" />
+          <entry key="dummy" value="67" />
           <entry key="gradle" value="79" />
           <entry key="html" value="978" />
-          <entry key="java" value="12913" />
+          <entry key="java" value="13645" />
           <entry key="proto" value="587" />
         </counts>
       </usages-collector>
@@ -105,20 +143,66 @@
         <counts>
           <entry key="Groovy" value="79" />
           <entry key="HTML" value="978" />
-          <entry key="JAVA" value="12913" />
-          <entry key="PLAIN_TEXT" value="57" />
+          <entry key="JAVA" value="13645" />
+          <entry key="PLAIN_TEXT" value="67" />
           <entry key="PROTO" value="587" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="netty-study" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="392" column="20" selection-start-line="392" selection-start-column="20" selection-end-line="392" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="1019" column="31" selection-start-line="1019" selection-start-column="31" selection-end-line="1019" selection-end-column="31" />
+              <folding>
+                <element signature="e#6065#6066#0" expanded="true" />
+                <element signature="e#6095#6096#0" expanded="true" />
+                <element signature="e#7697#7698#0" expanded="true" />
+                <element signature="e#7748#7749#0" expanded="true" />
+                <element signature="e#17095#17271#0" expanded="true" />
+                <element signature="e#17270#17271#0" expanded="true" />
+                <element signature="e#34525#34526#0" expanded="true" />
+                <element signature="e#34563#34564#0" expanded="true" />
+                <element signature="e#34653#34654#0" expanded="true" />
+                <element signature="e#34700#34701#0" expanded="true" />
+                <element signature="e#44566#44567#0" expanded="true" />
+                <element signature="e#44601#44602#0" expanded="true" />
+                <element signature="e#47171#47172#0" expanded="true" />
+                <element signature="e#47219#47220#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,31 +211,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Acceptor.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="207" column="18" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="1001" column="9" lean-forward="true" selection-start-line="1001" selection-start-column="9" selection-end-line="1001" selection-end-column="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4125#4126#0" expanded="true" />
+                <element signature="e#4166#4167#0" expanded="true" />
+                <element signature="e#22915#22916#0" expanded="true" />
+                <element signature="e#22962#22963#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1575#1576#0" expanded="true" />
-                <element signature="e#1633#1634#0" expanded="true" />
-                <element signature="e#1674#1675#0" expanded="true" />
-                <element signature="e#1717#1718#0" expanded="true" />
-                <element signature="e#1759#1760#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -165,6 +279,19 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>selector</find>
+      <find>selector.sele</find>
+      <find>childGroup</find>
+      <find>channelFactory</find>
+      <find>NioSer</find>
+      <find>doB</find>
+      <find>doBIN</find>
+      <find>AbstractUnsafe</find>
+      <find>HeadContext.readIfIsAutoRead()</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -549,26 +676,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/websocket/WebSocketServer.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/webapp/websocket.html" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/websocket/WebSocketChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/websocket/WebSocketHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/DataInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/TestPB.java" />
-        <option value="$PROJECT_DIR$/src/protobuf/Student.proto" />
-        <option value="$PROJECT_DIR$/src/protobuf/MyMessage.proto" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufClientChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufClientHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufServerChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo2/ProtobufServerHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/simplechat/NioClient.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/test/Test001.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/test/Test002.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/test/TreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/simplechat/NioServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor/NIOServer2.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor2/NIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor/NIOServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor2/Processor.java" />
@@ -581,17 +688,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/zerocopy/model2/TransferModel2Server.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/zerocopy/model2/TransferModel2Client.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/future/FutureDemo1.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServer.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/StateEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handle.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Processor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/test/HelloAcceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Acceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/test/HelloReactor.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor2/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor3/NIOServer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Handler.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java" />
@@ -600,6 +704,29 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/test/EchoReactor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/EchoReactor.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/EchoReactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/TestServerInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/InBound2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/Inbound1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/Inbound3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/InBound2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/TestServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound2.java" />
       </list>
     </option>
   </component>
@@ -620,7 +747,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="724" />
+    <option name="height" value="731" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -628,6 +755,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -668,7 +797,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coderjia" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
@@ -677,8 +806,8 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coderjia" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="douglea" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
@@ -687,35 +816,84 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="coderjia" type="462c0819:PsiDirectoryNode" />
-              <item name="nio" type="462c0819:PsiDirectoryNode" />
-              <item name="douglea" type="462c0819:PsiDirectoryNode" />
-              <item name="reactor" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="sr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coderjia" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="sr" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coderjia" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="sr" type="462c0819:PsiDirectoryNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty-study" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coderjia" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="sr" type="462c0819:PsiDirectoryNode" />
+              <item name="demo3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Gradle: io.netty:netty-all:4.1.33.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="netty-all-4.1.33.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="channel" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="Student&#9;FILE&#9;file:///Users/coderjia/Documents/学习/netty-study/src/protobuf/Student.proto" />
+    <property name="SearchEverywhereHistoryKey" value="AbstractUnsafe&#9;PSI&#9;JAVA://io.netty.channel.AbstractChannel.AbstractUnsafe&#10;HeadCon&#9;PSI&#9;JAVA://io.netty.channel.DefaultChannelPipeline.HeadContext&#10;Nio&#9;FILE&#9;jar:///Users/coderjia/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;NioServerSocketChannel&#9;PSI&#9;JAVA://io.netty.channel.socket.nio.NioServerSocketChannel&#10;NI&#9;FILE&#9;jar:///Users/coderjia/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java&#10;channelRegistered&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundHandler#channelRegistered&#10;fireChannelRegistered&#9;PSI&#9;JAVA://io.netty.channel.ChannelInboundInvoker#fireChannelRegistered&#10;Student&#9;FILE&#9;file:///Users/coderjia/Documents/学习/netty-study/src/protobuf/Student.proto" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554626072168" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559884272593" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -727,13 +905,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.coderjia.netty.sr.demo3" />
       <recent name="cn.coderjia.nio.douglea.reactor3" />
       <recent name="cn.coderjia.nio.douglea.reactor2" />
       <recent name="cn.coderjia.nio.zerocopy.model2" />
       <recent name="cn.coderjia.nio.zerocopy" />
-      <recent name="cn.coderjia.nio.reactor3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2" />
+      <recent name="$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2" />
       <recent name="$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3" />
       <recent name="$PROJECT_DIR$/src/protobuf" />
     </key>
@@ -750,7 +931,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EchoReactor">
+  <component name="RunManager" selected="Application.TestServer (2)">
     <configuration name="EchoReactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.coderjia.nio.douglea.reactor.EchoReactor" />
       <module name="netty-study_main" />
@@ -764,12 +945,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FutureDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.future.FutureDemo1" />
+    <configuration name="TestIdleStateServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.idlestate.TestIdleStateServer" />
       <module name="netty-study_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.coderjia.netty.future.*" />
+          <option name="PATTERN" value="cn.coderjia.netty.idlestate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -777,12 +958,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferModel1Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.coderjia.nio.zerocopy.moel1.TransferModel1Server" />
+    <configuration name="TestServer (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.sr.demo2.TestServer" />
       <module name="netty-study_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.coderjia.nio.zerocopy.moel1.*" />
+          <option name="PATTERN" value="cn.coderjia.netty.sr.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -790,12 +971,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferModel2Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.coderjia.nio.zerocopy.model2.TransferModel2Client" />
+    <configuration name="TestServer (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.sr.demo3.TestServer" />
       <module name="netty-study_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.coderjia.nio.zerocopy.model2.*" />
+          <option name="PATTERN" value="cn.coderjia.netty.sr.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -803,12 +984,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferModel2Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.coderjia.nio.zerocopy.model2.TransferModel2Server" />
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.http.TestServer" />
       <module name="netty-study_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.coderjia.nio.zerocopy.model2.*" />
+          <option name="PATTERN" value="cn.coderjia.netty.http.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.coderjia.netty.sr.demo1.TestServer" />
+      <module name="netty-study_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.coderjia.netty.sr.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -817,19 +1011,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TransferModel1Server" />
-      <item itemvalue="Application.TransferModel2Server" />
-      <item itemvalue="Application.TransferModel2Client" />
-      <item itemvalue="Application.FutureDemo1" />
       <item itemvalue="Application.EchoReactor" />
+      <item itemvalue="Application.TestIdleStateServer" />
+      <item itemvalue="Application.TestServer" />
+      <item itemvalue="Application.TestServer (1)" />
+      <item itemvalue="Application.TestServer (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EchoReactor" />
-        <item itemvalue="Application.FutureDemo1" />
-        <item itemvalue="Application.TransferModel2Client" />
-        <item itemvalue="Application.TransferModel2Server" />
-        <item itemvalue="Application.TransferModel1Server" />
+        <item itemvalue="Application.TestServer (2)" />
+        <item itemvalue="Application.TestServer (1)" />
+        <item itemvalue="Application.TestServer (1)" />
+        <item itemvalue="Application.TestServer" />
+        <item itemvalue="Application.TestIdleStateServer" />
       </list>
     </recent_temporary>
   </component>
@@ -871,35 +1065,50 @@
       <workItem from="1554434270639" duration="131000" />
       <workItem from="1554434407484" duration="13825000" />
       <workItem from="1554517514922" duration="12294000" />
-      <workItem from="1554622312875" duration="1086000" />
+      <workItem from="1554622312875" duration="1358000" />
+      <workItem from="1554687387724" duration="32000" />
+      <workItem from="1554722126534" duration="2205000" />
+      <workItem from="1558783811669" duration="505000" />
+      <workItem from="1558840816646" duration="1629000" />
+      <workItem from="1558924586058" duration="25000" />
+      <workItem from="1558924622852" duration="5000" />
+      <workItem from="1558936929771" duration="43000" />
+      <workItem from="1558936980328" duration="4417000" />
+      <workItem from="1559008910246" duration="1070000" />
+      <workItem from="1559382263818" duration="11541000" />
+      <workItem from="1559485774191" duration="277000" />
+      <workItem from="1559530183655" duration="13725000" />
+      <workItem from="1559610350358" duration="17854000" />
+      <workItem from="1559703279686" duration="570000" />
+      <workItem from="1559869807570" duration="8977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105844000" />
+    <option name="totallyTimeSpent" value="168991000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="731" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24394184" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976526" visible="true" weight="0.2625202" />
+      <window_info id="Structure" order="1" sideWeight="0.5023474" side_tool="true" weight="0.1736672" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5023474" side_tool="true" weight="0.1736672" />
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32594937" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38449368" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
+      <window_info anchor="bottom" id="Run" order="2" weight="1.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39593115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3227848" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6682316" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32953367" />
@@ -908,34 +1117,34 @@
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3290735" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
       <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23990306" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976526" visible="true" weight="0.2625202" />
+      <window_info id="Structure" order="1" sideWeight="0.5023474" side_tool="true" weight="0.1736672" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.5023474" side_tool="true" weight="0.1736672" />
       <window_info id="JRebel" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32594937" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38449368" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32394367" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3834116" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39593115" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3227848" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.6682316" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32911393" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32953367" />
@@ -944,10 +1153,10 @@
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24959612" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" weight="0.32956383" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.3290735" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
@@ -960,353 +1169,471 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java</url>
+          <line>929</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="execute" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/webapp/websocket.html">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/internal/SocketUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/zerocopy/moel1/TransferModel1Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="218">
+          <caret line="92" column="32" selection-start-line="92" selection-start-column="32" selection-end-line="92" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/zerocopy/moel1/TransferModel1Server.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="197">
+          <caret line="76" column="9" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="211" column="53" selection-start-line="211" selection-start-column="53" selection-end-line="211" selection-end-column="53" />
+        <state relative-caret-position="201">
+          <caret line="297" column="24" lean-forward="true" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectionKeyImpl.class">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/ServerSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+        <state relative-caret-position="370">
+          <caret line="219" column="33" selection-start-line="219" selection-start-column="33" selection-end-line="219" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/nio/ch/SelectorImpl.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="212">
+          <caret line="108" column="41" selection-start-line="107" selection-end-line="109" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/spi/AbstractSelector.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/net/ServerSocket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="180" column="24" lean-forward="true" selection-start-line="180" selection-start-column="24" selection-end-line="180" selection-end-column="24" />
+        <state relative-caret-position="227">
+          <caret line="617" column="32" lean-forward="true" selection-start-line="617" selection-start-column="32" selection-end-line="617" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/socket/SocketChannel.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/SimpleChannelInboundHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-91">
-          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestHttpServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="13" column="4" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state relative-caret-position="197">
+          <caret line="70" column="28" selection-start-line="70" selection-start-column="28" selection-end-line="70" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/Reactor.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/Runnable.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/SelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2631">
-          <caret line="218" column="33" selection-start-line="218" selection-start-column="33" selection-end-line="218" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Processor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/StateEnum.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handle.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="256" column="16" selection-start-line="256" selection-start-column="16" selection-end-line="256" selection-end-column="16" />
-          <folding>
-            <element signature="e#9766#9767#0" expanded="true" />
-            <element signature="e#9813#9814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/test/HelloAcceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/simplechat/NioServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor2/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="40" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="86" column="11" lean-forward="true" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="11" />
+        <state relative-caret-position="494">
+          <caret line="139" column="9" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor2/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="70" column="38" lean-forward="true" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="885">
+          <caret line="85" column="26" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
           <folding>
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1853#1854#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1937#1938#0" expanded="true" />
-            <element signature="e#1979#1980#0" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#3165#3166#0" expanded="true" />
+            <element signature="e#3343#3344#0" expanded="true" />
+            <element signature="e#3390#3391#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/EventLoopGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/SelectedSelectionKeySetSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="61" column="28" lean-forward="true" selection-start-line="61" selection-start-column="28" selection-end-line="61" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="328" column="24" selection-start-line="328" selection-start-column="24" selection-end-line="328" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/nio/channels/SelectionKey.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="253" column="30" lean-forward="true" selection-start-line="253" selection-end-line="254" />
-          <folding>
-            <element signature="e#14132#14133#0" expanded="true" />
-            <element signature="e#14192#14193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="180" column="60" lean-forward="true" selection-start-line="180" selection-start-column="60" selection-end-line="180" selection-end-column="60" />
+        <state relative-caret-position="315">
+          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="562">
           <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
+          <folding>
+            <element signature="e#8705#8706#0" expanded="true" />
+            <element signature="e#8765#8766#0" expanded="true" />
+            <element signature="e#14434#14435#0" expanded="true" />
+            <element signature="e#14462#14463#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ThreadPerChannelEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="275" column="25" selection-start-line="275" selection-start-column="25" selection-end-line="275" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="254" column="31" selection-start-line="254" selection-start-column="31" selection-end-line="254" selection-end-column="31" />
+          <folding>
+            <element signature="e#9626#9956#0" expanded="true" />
+            <element signature="e#9955#9956#0" expanded="true" />
+            <element signature="e#11796#11797#0" expanded="true" />
+            <element signature="e#11825#11826#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
+        <state relative-caret-position="365">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1181#1714#0" expanded="true" />
+            <element signature="e#1713#1714#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor3/Processor.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
+        <state relative-caret-position="-6">
+          <caret line="168" column="77" selection-start-line="168" selection-start-column="77" selection-end-line="168" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/reactor3/NIOServer.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelHandlerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="38" column="82" selection-start-line="38" selection-start-column="82" selection-end-line="38" selection-end-column="82" />
+        <state relative-caret-position="285">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1324#1325#0" expanded="true" />
+            <element signature="e#1387#1388#0" expanded="true" />
+            <element signature="e#1452#1453#0" expanded="true" />
+            <element signature="e#1516#1517#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo1/DataInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/TestServerInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/protobuf/Student.proto">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/http2/TestHttpServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="15" />
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/protobuf/demo1/TestPB.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="-458">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/protobuf/MyMessage.proto">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/lib/rt.jar!/sun/misc/Unsafe.class">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelHandlerContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="357" column="21" selection-start-line="357" selection-start-column="21" selection-end-line="357" selection-end-column="21" />
+        <state relative-caret-position="197">
+          <caret line="174" column="26" selection-start-line="174" selection-start-column="26" selection-end-line="174" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/util/concurrent/atomic/AtomicInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="156" column="21" lean-forward="true" selection-start-line="156" selection-start-column="21" selection-end-line="156" selection-end-column="36" />
-          <folding>
-            <element signature="e#4021#4022#0" expanded="true" />
-            <element signature="e#4085#4086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Handler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Reactor3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="61" column="9" lean-forward="true" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/EchoReactor.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/SingleThreadEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+          <folding>
+            <element signature="e#3045#3046#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#4995#4996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/NioEventLoop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="463" selection-start-line="463" selection-end-line="463" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/Channel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="182" column="20" selection-start-line="182" selection-start-column="20" selection-end-line="182" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInboundHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/internal/ObjectUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/nio/AbstractNioChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#4070#4071#0" expanded="true" />
+            <element signature="e#4095#4096#0" expanded="true" />
+            <element signature="e#4203#4204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/SingleThreadEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+          <folding>
+            <element signature="e#18324#18325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/concurrent/AbstractEventExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+          <folding>
+            <element signature="e#2057#2058#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/util/ReferenceCountUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundHandlerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/TestServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="298" column="26" lean-forward="true" selection-start-line="298" selection-start-column="26" selection-end-line="298" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
+            <element signature="e#4663#4664#0" expanded="true" />
+            <element signature="e#4718#4719#0" expanded="true" />
+            <element signature="e#5714#5715#0" expanded="true" />
+            <element signature="e#5745#5746#0" expanded="true" />
+            <element signature="e#7562#7563#0" expanded="true" />
+            <element signature="e#7612#7613#0" expanded="true" />
+            <element signature="e#9491#9492#0" expanded="true" />
+            <element signature="e#9542#9543#0" expanded="true" />
+            <element signature="e#9867#9868#0" expanded="true" />
+            <element signature="e#9911#9912#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/EchoReactor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo1/Inbound3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="29" selection-end-column="1" />
+        <state relative-caret-position="150">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor3/Acceptor3.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/TestServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        <state relative-caret-position="77">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Handler.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelInboundHandlerAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+        <state relative-caret-position="270">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" selection-start-line="11" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="31" lean-forward="true" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Outbound2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" selection-start-line="13" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" selection-start-line="10" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo3/Inbound1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="392" column="20" selection-start-line="392" selection-start-column="20" selection-end-line="392" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/AbstractChannelHandlerContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="1001" column="9" lean-forward="true" selection-start-line="1001" selection-start-column="9" selection-end-line="1001" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1575#1576#0" expanded="true" />
-            <element signature="e#1633#1634#0" expanded="true" />
-            <element signature="e#1674#1675#0" expanded="true" />
-            <element signature="e#1717#1718#0" expanded="true" />
-            <element signature="e#1759#1760#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
+            <element signature="e#4125#4126#0" expanded="true" />
+            <element signature="e#4166#4167#0" expanded="true" />
+            <element signature="e#22915#22916#0" expanded="true" />
+            <element signature="e#22962#22963#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Acceptor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="207" column="18" selection-start-line="207" selection-start-column="18" selection-end-line="207" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.33.Final/3738efeb2d3419de3b171108bc3929311f504cd3/netty-all-4.1.33.Final-sources.jar!/io/netty/channel/DefaultChannelPipeline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="1019" column="31" selection-start-line="1019" selection-start-column="31" selection-end-line="1019" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#6065#6066#0" expanded="true" />
+            <element signature="e#6095#6096#0" expanded="true" />
+            <element signature="e#7697#7698#0" expanded="true" />
+            <element signature="e#7748#7749#0" expanded="true" />
+            <element signature="e#17095#17271#0" expanded="true" />
+            <element signature="e#17270#17271#0" expanded="true" />
+            <element signature="e#34525#34526#0" expanded="true" />
+            <element signature="e#34563#34564#0" expanded="true" />
+            <element signature="e#34653#34654#0" expanded="true" />
+            <element signature="e#34700#34701#0" expanded="true" />
+            <element signature="e#44566#44567#0" expanded="true" />
+            <element signature="e#44601#44602#0" expanded="true" />
+            <element signature="e#47171#47172#0" expanded="true" />
+            <element signature="e#47219#47220#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/nio/douglea/reactor/Reactor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/coderjia/netty/sr/demo2/Outbound3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1342,6 +1669,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Bundled Protobuf Distribution</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

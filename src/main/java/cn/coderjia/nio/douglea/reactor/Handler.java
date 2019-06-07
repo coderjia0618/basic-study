@@ -43,6 +43,7 @@ public class Handler implements Runnable {
     private void read() throws IOException {
         socket.read(input);
         if (inputIsComplete()) {
+            //
             process();
             state = SENDING;
             sk.interestOps(SelectionKey.OP_WRITE);
