@@ -30,9 +30,7 @@ public class TestServer {
                         @Override
                         protected void initChannel(SocketChannel ch) {
                             ChannelPipeline pipeline = ch.pipeline();
-                            pipeline.addLast(new Inbound1())
-                                    .addLast(new Inbound2())
-                                    .addLast(new Inbound3());
+                            pipeline.addLast(new Inbound1());
                         }
                     });
             ChannelFuture channelFuture = serverBootstrap.bind(8080).sync();
