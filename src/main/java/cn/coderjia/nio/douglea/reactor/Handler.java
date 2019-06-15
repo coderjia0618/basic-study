@@ -8,7 +8,7 @@ import java.nio.channels.SocketChannel;
 
 /**
  * @Author CoderJiA
- * @Description Handler
+ * @Description Handle
  * @Date 5/4/19 下午4:25
  **/
 public class Handler implements Runnable {
@@ -59,7 +59,7 @@ public class Handler implements Runnable {
     }
 
     private void process() {
-        System.out.println("Handler.process()...");
+        System.out.println("Handle.process()...");
     }
 
     private boolean inputIsComplete() {
